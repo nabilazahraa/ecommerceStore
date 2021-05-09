@@ -6,7 +6,7 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import { commerce } from "./lib/commerce";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-require("dotenv").config();
+
 function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
