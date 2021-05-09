@@ -88,7 +88,7 @@ function App() {
               handleEmptyCart={handleEmptyCart}
             />
           </Route>
-          <Route>
+          <Route exact path="/checkout">
             <Checkout
               cart={cart}
               order={order}
