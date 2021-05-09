@@ -14,5 +14,8 @@ Cart:
 Checkout:
 ![checkout](/design/checkout.png)
 
+Payment:
+![payment](/design/payment.png)
+
 Order completion:
 ![complete](/design/complete.png)
